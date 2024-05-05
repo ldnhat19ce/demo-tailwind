@@ -15,7 +15,8 @@ module.exports = {
         textColor: {
             'grey-900': '#212121',
             'lemon-whisper': '#FFB30E',
-            'black-panther': '#424242'
+            'black-panther': '#424242',
+            'white-smoke': '#F5F5F5'
         },
         width: {
             '1-5em': '1.5em'
@@ -29,7 +30,8 @@ module.exports = {
         backgroundColor: {
             '100': '#FCFCFC',
             'transparent': 'transparent',
-            'wash-me': '#F9FAFD'
+            'wash-me': '#F9FAFD',
+            'lead': '#212121'
         },
         borderColor: {
             'transparent': 'transparent'
