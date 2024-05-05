@@ -1,1 +1,29 @@
-@import "./assets/css/tailwind/tailwind.min.css";
+/* @import "./assets/css/tailwind/tailwind.min.css"; */
+/* @import "./assets/css/tailwind/tailwind.css"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+@tailwind screens;
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.text-gradient {
+    background: -o-linear-gradient(40deg, #fb3c00, #ffb800);
+    background: linear-gradient(50deg, #fb3c00, #ffb800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-toggle-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.95%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M0 6h30M0 14h30M0 22h30'/%3E%3C/svg%3E");
+}
+
+.transition-1 {
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
