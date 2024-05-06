@@ -16,13 +16,20 @@ module.exports = {
             'grey-900': '#212121',
             'lemon-whisper': '#FFB30E',
             'black-panther': '#424242',
-            'white-smoke': '#F5F5F5'
+            'white-smoke': '#F5F5F5',
+            'blue-500': 'rgb(59 130 246)',
+            'red-500': 'rgb(239 68 68)',
+            'gray-600': 'rgb(75 85 99)'
         },
         width: {
-            '1-5em': '1.5em'
+            '1-5em': '1.5em',
+            '16': '4rem',
+            'screen': '100vh'
         },
         height: {
-            '1-5em': '1.5em'
+            '1-5em': '1.5em',
+            '16': '4rem',
+            'screen': '100vh'
         },
         backgroundSize: {
             '100': '100%'
