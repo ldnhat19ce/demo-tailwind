@@ -1,11 +1,5 @@
-/* @import "./assets/css/tailwind/tailwind.min.css"; */
+@import "./assets/css/tailwind/tailwind.min.css";
 /* @import "./assets/css/tailwind/tailwind.css"; */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind variants;
-@tailwind screens;
 
 input:focus {
     outline: none !important;
