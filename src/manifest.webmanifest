@@ -1,6 +1,6 @@
 {
-    "name": "demo-tailwind",
-    "short_name": "demo-tailwind",
+    "name": "MiMi Food and Drink",
+    "short_name": "MiMi Food and Drink",
     "theme_color": "#1976d2",
     "background_color": "#fafafa",
     "display": "standalone",
